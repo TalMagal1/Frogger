@@ -70,3 +70,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore large media files
+*.psd
+*.tga
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Exclude other large binary assets
+*.blend
+*.fbx
+*.obj
+*.unitypackage
